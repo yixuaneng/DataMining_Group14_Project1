@@ -17,14 +17,18 @@ Dataset codes:
 | `DS1` | EuroMart (Dataset 1) |
 | `DS2` | POS (Dataset 2) |
 | `DS1n2` | Combined EuroMart and POS |
+| `DS3` | dunnhumby The Complete Journey (additional dataset) |
+| `DS4` | Online Retail II (additional dataset) |
+| `DS1to4` | All four datasets |
 
 ## Workflow Order
 
-The sequence number shows the order of work. The project moves through three stages:
+The sequence number shows the order of work. The project moves through four stages:
 
 1. **Exploratory data analysis (1 to 3):** Understand each dataset, then visualise the graph structure.
 2. **Models on EuroMart (4 to 7):** Apply the graph models to Dataset 1, followed by the combined model.
 3. **Models on POS (8 to 9):** Apply the remaining models to Dataset 2.
+4. **Additional datasets (10 to 13):** Build the EuroMart quarterly snapshots used by LightGCN, clean two further datasets and check how item granularity changes the comparison.
 
 ## File List and Contributors
 
@@ -36,16 +40,20 @@ The sequence number shows the order of work. The project moves through three sta
 | 4 | `4_GCN_DS1_EuroMart` | Models | GCN on EuroMart | Yi Xuan |
 | 5 | `5_GraphSAGE_DS1n2_EuroMart_POS` | Models | GraphSAGE on combined data | Johan |
 | 6 | `6_GAT_DS1_EuroMart` | Models | GAT on EuroMart | Yi Xuan |
-| 7 | `7_GraphLight_DS1n2_EuroMart_POS` | Models | GraphLight on combined data | Nicholas |
+| 7 | `7_LightGCN_DS1n2_EuroMart_POS` | Models | LightGCN on combined data | Nicholas |
 | 8 | `8_GCN_DS2_POS` | Models | GCN on POS | Hansen |
 | 9 | `9_GAT_DS2_POS` | Models | GAT on POS | Yi Xuan |
+| 10 | `10_Build_DS1_EuroMart_Quarterly_Snapshots` | Additional datasets | EuroMart quarterly snapshots used by LightGCN | Nicholas |
+| 11 | `11_Cleaning_DS3_dunnhumby` | Additional datasets | Cleaning of dunnhumby | Nicholas |
+| 12 | `12_Cleaning_DS4_OnlineRetailII` | Additional datasets | Cleaning of Online Retail II | Nicholas |
+| 13 | `13_LightGCN_DS1to4_Granularity` | Additional datasets | Baselines on all four datasets at different item granularity | Nicholas |
 
 ## Contributions by Person
 
 - **Yi Xuan:** EDA on EuroMart (1), GCN on EuroMart (4), GAT on EuroMart (6), GAT on POS (9)
 - **Hansen:** EDA on POS (2), GCN on POS (8)
 - **Johan:** Graph visualisation (3), GraphSAGE (5)
-- **Nicholas:** GraphLight (7)
+- **Nicholas:** LightGCN (7), EuroMart quarterly snapshots (10), cleaning of dunnhumby and Online Retail II (11, 12), granularity check (13)
 
 ## Notes
 Follow the files in order to understand how the 4 GCN models are evaluated against the 2 datasets. 
