@@ -14,14 +14,14 @@ Exploratory files for datasets that were not pursued start with `Other_`.
 
 Dataset codes:
 
-| Code | Dataset | Link
-|------|---------|
-| `DS1` | EuroMart (Dataset 1) | braniac2000/retail-dataset ](https://www.kaggle.com/datasets/braniac2000/retail-dataset
-| `DS2` | POS (Dataset 2) | arunsworkspace/retail-pos-dataset-for-market-basket-analysis](https://www.kaggle.com/datasets/arunsworkspace/retail-pos-dataset-for-market-basket-analysis
-| `DS1n2` | Combined EuroMart and POS |
-| `DS3` | dunnhumby The Complete Journey (exploratory only) | https://www.kaggle.com/datasets/frtgnn/dunnhumby-the-complete-journey
-| `DS4` | Online Retail II (exploratory only) |
-| `All_DS` | All datasets together (comparison) | https://www.kaggle.com/datasets/dvaser/online-retail-ii
+| Code | Dataset | Link |
+|------|---------|------|
+| `DS1` | EuroMart (Dataset 1) | [braniac2000/retail-dataset](https://www.kaggle.com/datasets/braniac2000/retail-dataset) |
+| `DS2` | POS (Dataset 2) | [arunsworkspace/retail-pos-dataset-for-market-basket-analysis](https://www.kaggle.com/datasets/arunsworkspace/retail-pos-dataset-for-market-basket-analysis) |
+| `DS1n2` | Combined EuroMart and POS | |
+| `DS3` | dunnhumby The Complete Journey (exploratory only) | [frtgnn/dunnhumby-the-complete-journey](https://www.kaggle.com/datasets/frtgnn/dunnhumby-the-complete-journey) |
+| `DS4` | Online Retail II (exploratory only) | [dvaser/online-retail-ii](https://www.kaggle.com/datasets/dvaser/online-retail-ii) |
+| `All_DS` | All datasets together (comparison) | |
 
 ## Workflow Order
 
