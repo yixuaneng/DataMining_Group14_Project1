@@ -21,7 +21,7 @@ Dataset codes:
 | `DS1n2` | Combined EuroMart and POS | |
 | `DS3` | dunnhumby The Complete Journey (exploratory only) | [frtgnn/dunnhumby-the-complete-journey](https://www.kaggle.com/datasets/frtgnn/dunnhumby-the-complete-journey) |
 | `DS4` | Online Retail II (exploratory only) | [dvaser/online-retail-ii](https://www.kaggle.com/datasets/dvaser/online-retail-ii) |
-| `All_DS` | All datasets together (comparison) | | All the sources
+| `All_DS` | All datasets together (comparison) | | All the sources |
 
 ## Workflow Order
 
